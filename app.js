@@ -90,6 +90,8 @@ function reddish() {
                     // if (pinkColor == greenColor) {
                     //     i2.style.backgroundColor = 'rgb(253, 60, 60)'
                     // }
+
+                    //new green : rgb(62,174,142)
                 }
             })
         }
