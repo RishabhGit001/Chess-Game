@@ -1,3 +1,9 @@
+@font-face {
+    font-family: brave;
+    src: url(./assests/bravephoenixexpand.ttf);
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -9,18 +15,37 @@ body {
     overflow-x: hidden;
 }
 body{
-    background-image: url(./assests/bgcover.jpg);
     background-size: cover;
+    background-color: #312e2b;;
 }
 
 h1 {
     margin: 10px;
+    font-family: brave;
+    font-size: 50px;
+    font-weight: 500;
+    color: rgb(245, 235, 216);
+}
+
+h2{
+    color: white;
 }
 
 ul {
     display: grid;
     grid-template-columns: 1fr;
 }
+
+
+.header{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0,0,0,.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .divv {
     display: flex;
